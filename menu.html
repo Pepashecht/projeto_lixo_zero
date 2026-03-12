@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoColeta - Mapa de Coleta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <i class="fas fa-leaf"></i>
+            <input type="text" class="search-input" placeholder="Pesquisa por nome:">
+            <input type="text" class="search-input" placeholder="CEP:">
+        </div>
+
+        <div class="sidebar">
+            <a href="ponto_coleta.html" class="sidebar-link">
+                <i class="fas fa-map-pin"></i>
+            </a>
+            <a href="ped_col.html" class="sidebar-link">
+                <i class="fas fa-clock"></i>
+            </a>
+            <i class="fas fa-exclamation-triangle"></i>
+        </div>
+
+        <div class="map-container">
+            <img src="https://gisgeography.com/wp-content/uploads/2023/02/Munich-Map-Germany.jpg" alt="Mapa de Munique">
+        </div>
+
+        <div class="dashboard">
+            <div class="dash-item">
+                <i class="fas fa-trash"></i>
+                <p>Capacidade</p>
+                <span class="percentage">75%</span>
+            </div>
+            <div class="dash-item">
+                <i class="fas fa-seedling"></i>
+                <span class="percentage">100%</span>
+            </div>
+            <div class="dash-item">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="percentage">67%</span>
+            </div>
+            <div class="dash-item">
+                <i class="fas fa-microchip"></i>
+                <span class="percentage">72%</span>
+            </div>
+            <div class="dash-item info-item">
+                <i class="fas fa-leaf"></i>
+                <p>Saiba mais sobre nós</p>
+            </div>
+            <div class="dash-item schedules-item">
+                <p>Horários disponíveis para coleta</p>
+                <span class="times">08:15 / 11:30 / 15:45 / 17:10</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
